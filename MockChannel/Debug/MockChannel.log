@@ -1,0 +1,41 @@
+﻿Build started 5/3/2016 12:34:00 PM.
+     1>Project "A:\College\OOD\Project#4\final\final4\RemoteCodeMgmt\MockChannel\MockChannel.vcxproj" on node 2 (Rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\MockChannel.tlog\MockChannel.lastbuildstate".
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets(76,5): warning : The process cannot access the file 'a:\college\ood\project#4\final\final4\remotecodemgmt\mockchannel\debug\receiver.obj' because it is being used by another process.
+       InitializeBuildStatus:
+         Creating "Debug\MockChannel.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\ApplicationHelpers\AppHelpers.cpp ..\BlockingQueue\BlockingQueue.cpp ..\Executive\DataStore.cpp ..\Executive\FileManager.cpp ..\Message\Message.cpp ..\Receiver\FileSystem.cpp ..\Receiver\Receiver.cpp ..\Sender\Sender.cpp ..\Sockets\Sockets.cpp MockChannel.cpp
+         MockChannel.cpp
+         Sockets.cpp
+         Sender.cpp
+         Receiver.cpp
+         FileSystem.cpp
+         Message.cpp
+         FileManager.cpp
+         DataStore.cpp
+         BlockingQueue.cpp
+         AppHelpers.cpp
+         Generating Code...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"A:\College\OOD\Project#4\final\final4\RemoteCodeMgmt\Debug\MockChannel.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"A:\College\OOD\Project#4\final\final4\RemoteCodeMgmt\Debug\MockChannel.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"A:\College\OOD\Project#4\final\final4\RemoteCodeMgmt\Debug\MockChannel.lib" /MACHINE:X86 /DLL Debug\AppHelpers.obj
+         Debug\BlockingQueue.obj
+         Debug\DataStore.obj
+         Debug\FileManager.obj
+         Debug\Message.obj
+         Debug\FileSystem.obj
+         Debug\Receiver.obj
+         Debug\Sender.obj
+         Debug\Sockets.obj
+         Debug\MockChannel.obj
+            Creating library A:\College\OOD\Project#4\final\final4\RemoteCodeMgmt\Debug\MockChannel.lib and object A:\College\OOD\Project#4\final\final4\RemoteCodeMgmt\Debug\MockChannel.exp
+         MockChannel.vcxproj -> A:\College\OOD\Project#4\final\final4\RemoteCodeMgmt\Debug\MockChannel.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\MockChannel.tlog\unsuccessfulbuild".
+         Touching "Debug\MockChannel.tlog\MockChannel.lastbuildstate".
+     1>Done Building Project "A:\College\OOD\Project#4\final\final4\RemoteCodeMgmt\MockChannel\MockChannel.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.76
